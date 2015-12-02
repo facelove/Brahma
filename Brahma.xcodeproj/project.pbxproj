@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECDA90E21C0E842800EED44E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDA90E11C0E842800EED44E /* main.m */; };
+		ECDA90E51C0E842800EED44E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDA90E41C0E842800EED44E /* AppDelegate.m */; };
+		ECDA90E81C0E842800EED44E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDA90E71C0E842800EED44E /* ViewController.m */; };
+		ECDA90EB1C0E842800EED44E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECDA90E91C0E842800EED44E /* Main.storyboard */; };
+		ECDA90ED1C0E842800EED44E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECDA90EC1C0E842800EED44E /* Assets.xcassets */; };
+		ECDA90F01C0E842800EED44E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECDA90EE1C0E842800EED44E /* LaunchScreen.storyboard */; };
+		ECDA91221C0EA0C400EED44E /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDA91171C0EA0C400EED44E /* FMDatabase.m */; };
+		ECDA91231C0EA0C400EED44E /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDA91191C0EA0C400EED44E /* FMDatabaseAdditions.m */; };
+		ECDA91241C0EA0C400EED44E /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDA911B1C0EA0C400EED44E /* FMDatabasePool.m */; };
+		ECDA91251C0EA0C400EED44E /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDA911D1C0EA0C400EED44E /* FMDatabaseQueue.m */; };
+		ECDA91261C0EA0C400EED44E /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDA911F1C0EA0C400EED44E /* FMResultSet.m */; };
+		ECDA91271C0EA0C400EED44E /* SDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDA91211C0EA0C400EED44E /* SDBManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ECDA90DD1C0E842800EED44E /* Brahma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brahma.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECDA90E11C0E842800EED44E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECDA90E31C0E842800EED44E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECDA90E41C0E842800EED44E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECDA90E61C0E842800EED44E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ECDA90E71C0E842800EED44E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ECDA90EA1C0E842800EED44E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECDA90EC1C0E842800EED44E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECDA90EF1C0E842800EED44E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECDA90F11C0E842800EED44E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECDA91161C0EA0C400EED44E /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		ECDA91171C0EA0C400EED44E /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		ECDA91181C0EA0C400EED44E /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		ECDA91191C0EA0C400EED44E /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		ECDA911A1C0EA0C400EED44E /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		ECDA911B1C0EA0C400EED44E /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		ECDA911C1C0EA0C400EED44E /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		ECDA911D1C0EA0C400EED44E /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		ECDA911E1C0EA0C400EED44E /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		ECDA911F1C0EA0C400EED44E /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		ECDA91201C0EA0C400EED44E /* SDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDBManager.h; sourceTree = "<group>"; };
+		ECDA91211C0EA0C400EED44E /* SDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDBManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECDA90DA1C0E842800EED44E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECDA90D41C0E842800EED44E = {
+			isa = PBXGroup;
+			children = (
+				ECDA91131C0EA0C400EED44E /* Lib */,
+				ECDA90DF1C0E842800EED44E /* Brahma */,
+				ECDA90DE1C0E842800EED44E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECDA90DE1C0E842800EED44E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECDA90DD1C0E842800EED44E /* Brahma.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECDA90DF1C0E842800EED44E /* Brahma */ = {
+			isa = PBXGroup;
+			children = (
+				ECDA90E31C0E842800EED44E /* AppDelegate.h */,
+				ECDA90E41C0E842800EED44E /* AppDelegate.m */,
+				ECDA90E61C0E842800EED44E /* ViewController.h */,
+				ECDA90E71C0E842800EED44E /* ViewController.m */,
+				ECDA90E91C0E842800EED44E /* Main.storyboard */,
+				ECDA90EC1C0E842800EED44E /* Assets.xcassets */,
+				ECDA90EE1C0E842800EED44E /* LaunchScreen.storyboard */,
+				ECDA90F11C0E842800EED44E /* Info.plist */,
+				ECDA90E01C0E842800EED44E /* Supporting Files */,
+			);
+			path = Brahma;
+			sourceTree = "<group>";
+		};
+		ECDA90E01C0E842800EED44E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECDA90E11C0E842800EED44E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECDA91131C0EA0C400EED44E /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				ECDA91141C0EA0C400EED44E /* DBManager */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		ECDA91141C0EA0C400EED44E /* DBManager */ = {
+			isa = PBXGroup;
+			children = (
+				ECDA91151C0EA0C400EED44E /* FMDB */,
+				ECDA91201C0EA0C400EED44E /* SDBManager.h */,
+				ECDA91211C0EA0C400EED44E /* SDBManager.m */,
+			);
+			path = DBManager;
+			sourceTree = "<group>";
+		};
+		ECDA91151C0EA0C400EED44E /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				ECDA91161C0EA0C400EED44E /* FMDatabase.h */,
+				ECDA91171C0EA0C400EED44E /* FMDatabase.m */,
+				ECDA91181C0EA0C400EED44E /* FMDatabaseAdditions.h */,
+				ECDA91191C0EA0C400EED44E /* FMDatabaseAdditions.m */,
+				ECDA911A1C0EA0C400EED44E /* FMDatabasePool.h */,
+				ECDA911B1C0EA0C400EED44E /* FMDatabasePool.m */,
+				ECDA911C1C0EA0C400EED44E /* FMDatabaseQueue.h */,
+				ECDA911D1C0EA0C400EED44E /* FMDatabaseQueue.m */,
+				ECDA911E1C0EA0C400EED44E /* FMResultSet.h */,
+				ECDA911F1C0EA0C400EED44E /* FMResultSet.m */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECDA90DC1C0E842800EED44E /* Brahma */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECDA90F41C0E842800EED44E /* Build configuration list for PBXNativeTarget "Brahma" */;
+			buildPhases = (
+				ECDA90D91C0E842800EED44E /* Sources */,
+				ECDA90DA1C0E842800EED44E /* Frameworks */,
+				ECDA90DB1C0E842800EED44E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Brahma;
+			productName = Brahma;
+			productReference = ECDA90DD1C0E842800EED44E /* Brahma.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECDA90D51C0E842800EED44E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = JK;
+				TargetAttributes = {
+					ECDA90DC1C0E842800EED44E = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = ECDA90D81C0E842800EED44E /* Build configuration list for PBXProject "Brahma" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECDA90D41C0E842800EED44E;
+			productRefGroup = ECDA90DE1C0E842800EED44E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECDA90DC1C0E842800EED44E /* Brahma */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECDA90DB1C0E842800EED44E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECDA90F01C0E842800EED44E /* LaunchScreen.storyboard in Resources */,
+				ECDA90ED1C0E842800EED44E /* Assets.xcassets in Resources */,
+				ECDA90EB1C0E842800EED44E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECDA90D91C0E842800EED44E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECDA90E81C0E842800EED44E /* ViewController.m in Sources */,
+				ECDA91241C0EA0C400EED44E /* FMDatabasePool.m in Sources */,
+				ECDA90E51C0E842800EED44E /* AppDelegate.m in Sources */,
+				ECDA91251C0EA0C400EED44E /* FMDatabaseQueue.m in Sources */,
+				ECDA90E21C0E842800EED44E /* main.m in Sources */,
+				ECDA91271C0EA0C400EED44E /* SDBManager.m in Sources */,
+				ECDA91221C0EA0C400EED44E /* FMDatabase.m in Sources */,
+				ECDA91261C0EA0C400EED44E /* FMResultSet.m in Sources */,
+				ECDA91231C0EA0C400EED44E /* FMDatabaseAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ECDA90E91C0E842800EED44E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECDA90EA1C0E842800EED44E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECDA90EE1C0E842800EED44E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECDA90EF1C0E842800EED44E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECDA90F21C0E842800EED44E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ECDA90F31C0E842800EED44E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECDA90F51C0E842800EED44E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Brahma/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iqiyi.iphone.Brahma;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ECDA90F61C0E842800EED44E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Brahma/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iqiyi.iphone.Brahma;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECDA90D81C0E842800EED44E /* Build configuration list for PBXProject "Brahma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECDA90F21C0E842800EED44E /* Debug */,
+				ECDA90F31C0E842800EED44E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECDA90F41C0E842800EED44E /* Build configuration list for PBXNativeTarget "Brahma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECDA90F51C0E842800EED44E /* Debug */,
+				ECDA90F61C0E842800EED44E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECDA90D51C0E842800EED44E /* Project object */;
+}
